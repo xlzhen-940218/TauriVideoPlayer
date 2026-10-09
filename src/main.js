@@ -357,7 +357,7 @@ function resetPlayer() {
   $("now-playing").title = "";
   $("time").textContent = "00:00 / 00:00";
   setProgress(0, 0);
-  appWindow.setTitle("视频播放器");
+  appWindow.setTitle("西瓜视频播放器");
 }
 
 function addFiles(paths, { replace = false, play = true } = {}) {
@@ -430,7 +430,7 @@ function loadIndex(i, autoplay) {
   stage.classList.add("has-video");
   $("now-playing").textContent = item.name;
   $("now-playing").title = item.path;
-  appWindow.setTitle(`${item.name} - 视频播放器`);
+  appWindow.setTitle(`${item.name} - 西瓜视频播放器`);
   renderPlaylist();
   const active = playlistItemsEl.querySelector("li.active");
   if (active) active.scrollIntoView({ block: "nearest" });

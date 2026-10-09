@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "视频播放器",
+  "productName": "西瓜视频播放器",
   "version": "0.1.0",
   "identifier": "com.xiong.taurivideoplayer",
   "build": {
@@ -10,7 +10,7 @@
     "withGlobalTauri": true,
     "windows": [
       {
-        "title": "视频播放器",
+        "title": "西瓜视频播放器",
         "width": 1280,
         "height": 800,
         "minWidth": 880,

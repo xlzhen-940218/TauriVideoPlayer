@@ -1,7 +1,7 @@
 {
   "name": "taurivideoplayer",
   "version": "1.0.0",
-  "description": "This template should help get you started developing with Tauri in vanilla HTML, CSS and Javascript.",
+  "description": "西瓜视频播放器 - 基于 Tauri 2 + Rust + Web 技术的轻量全格式桌面播放器",
   "license": "ISC",
   "author": "",
   "type": "commonjs",
